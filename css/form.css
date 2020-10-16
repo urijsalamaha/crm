@@ -1,0 +1,217 @@
+/*Content*/
+#content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff18d3;
+  background-image: url(../images/forForm.jpg);
+  background-size: contain;
+}
+
+/*Header*/
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  opacity: 0.5;
+}
+#logo {
+  width: 20%;
+  color: white;
+  text-align: center;
+  font-size: 1.3em;
+}
+#hdButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  height: auto;
+}
+button {
+  width: 15% !important;
+  height: 62.5% !important;
+  font-family: "Peddana", serif;
+  font-size: 1.7em;
+  background-color: cornflowerblue;
+  opacity: 1;
+  border: none;
+  border-radius: 5%;
+  color: black;
+}
+button:hover {
+  color: white;
+  box-shadow: 2px 2px 4px;
+  opacity: 1;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.9);
+  outline: none;
+}
+
+/*Main*/
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  background-color: #f9dbbe;
+  opacity: 0.97;
+  
+  border-radius: 5%/8%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.6), 23px 0 20px -23px rgba(0, 0, 0, 0.6),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+#main div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-evenly;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+  font-family: "Peddana", serif;
+  font-size: 1.3em;
+}
+#main div p {
+  color: #472a3f;
+}
+#nOne {
+  width: 40% !important;
+  height: auto !important;
+  padding-left: 17%;
+}
+#nTwo {
+  width: 50% !important;
+  height: auto !important;
+}
+#nTwo input {
+  width: 80%;
+  height: 47%;
+  border-radius: 7%/50%;
+  border: none;
+  background-color: whitesmoke;
+}
+#nTwo input:hover {
+  box-shadow: 3px 3px 9px !important;
+}
+#nTwo input:focus {
+  background-color: silver;
+  outline: none;
+}
+hr {
+  width: 80%;
+  color: #472a3f;
+  box-shadow: 2px 4px 4px;
+}
+#sOne {
+  width: 40% !important;
+  height: auto !important;
+  padding-left: 17%;
+}
+#sTwo {
+  width: 50% !important;
+  height: auto !important;
+}
+#sTwo input {
+  width: 80%;
+  height: 47%;
+  border-radius: 7%/50%;
+  border: none;
+  background-color: whitesmoke;
+}
+#sTwo input:hover {
+  box-shadow: 3px 3px 9px !important;
+}
+#sTwo input:focus {
+  background-color: silver;
+  outline: none;
+}
+#pOne {
+  width: 40% !important;
+  height: auto !important;
+  padding-left: 17%;
+}
+#pTwo {
+  width: 50% !important;
+  height: auto !important;
+}
+#pTwo input {
+  width: 80%;
+  height: 47%;
+  border-radius: 7%/50%;
+  border: none;
+  background-color: whitesmoke;
+}
+#pTwo input:hover {
+  box-shadow: 3px 3px 9px !important;
+}
+#pTwo input:focus {
+  background-color: silver;
+  outline: none;
+}
+#eOne {
+  width: 40% !important;
+  height: auto !important;
+  padding-left: 17%;
+}
+#eTwo {
+  width: 50% !important;
+  height: auto !important;
+}
+#eTwo input {
+  width: 80%;
+  height: 47%;
+  border-radius: 7%/50%;
+  border: none;
+  background-color: whitesmoke;
+}
+#eTwo input:hover {
+  box-shadow: 3px 3px 9px !important;
+}
+#eTwo input:focus {
+  background-color: silver;
+  outline: none;
+}
+#main input {
+  box-shadow: 2px 2px 4px #cac4b0;
+}
+#button {
+  flex-wrap: nowrap !important;
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+#button input {
+  width: 31% !important;
+  height: 62.5% !important;
+  font-family: "Peddana", serif;
+  font-size: 1.3em;
+  background-color: #7b68ee;
+  opacity: 0.8;
+  border: none;
+  border-radius: 5%;
+  color: #472a3f;
+}
+#button input:hover {
+  color: white;
+  box-shadow: 2px 2px 4px;
+  opacity: 1;
+  cursor: pointer;
+}
+#button input:active {
+  transform: scale(0.9);
+  outline: none;
+}
+#button input:focus {
+  outline: none;
+}
+
+
